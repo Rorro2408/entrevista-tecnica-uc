@@ -1,6 +1,10 @@
 # Entrevista Técnica UC.
 Respuestas a la Entrevista Técnica para la subdirección de desarrollo informático UC.
 
+##Sección 1
+
+Para ejecutar el código de la sección 1 escribir el siguiente comando en consola: ``php Seccion1.php``
+
 ## Sección 3
 
 1) ¿Qué objetivo queremos cumplir con esta nueva plataforma?
