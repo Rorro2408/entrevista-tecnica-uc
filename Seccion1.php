@@ -15,7 +15,7 @@
     }
 
     function ordenarTareasPorTiempo($tareas){
-        uasort($tareas, 'compararDuracionDeTarea');
+        uasort($tareas, 'compararDuracionDeTareas');
         return $tareas;
     }
 
@@ -47,7 +47,7 @@
 
     $tiempoMaximo = 60; //Editar para diferentes duraciones en minutos
     $tareasSeleccionadasARealizar = optimizarTareas($tareas, $tiempoMaximo);
-    echoTareas($tareasSeleccionadasARealizar);
+    echoTareas($tareasSeleccionadasARealizar); //Las tareas elegidas seran mostradas en consola
     
 ?>
 
